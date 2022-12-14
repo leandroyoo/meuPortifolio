@@ -1,0 +1,347 @@
+
+.container{
+  margin-left: 5%;
+  height: 10%;
+  width: 90%;
+  color: aliceblue;
+ font-family: 'Courier New', Courier, monospace; 
+}
+
+
+
+#main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.ct{
+  text-align: center;
+}
+
+body{
+  background-color:  #22212C;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+.ic{
+  width: 8%;
+  height: 8%;
+}
+
+
+.cabecalho{
+  background-color: #302F3D;
+  text-align: center;
+  width: 100%;
+  height: 15%;
+  color: white;
+  border-radius: 20px;
+  gap: 0.5rem;
+  padding: 20px 0;
+  margin-bottom: 10px;
+}
+
+
+.fotoperfil{
+  border-radius: 200px;
+  border-width: 2px;
+  border-color: #00FF00;
+  border-style: solid;
+  width: 8%;
+  height: 8%;
+  display: flex;
+  justify-content: center;
+  margin-left: 45%;
+
+}
+
+
+.cardcontato { 
+ 
+  background-color: #302F3D;
+  border-radius: 20px;
+  font-size: 19px;
+
+}
+.cardcontato li{
+  padding: 10px
+}
+.cardcontato, li, .cardcontato, .jesus { 
+  text-decoration: none;
+  list-style-type: none;
+  list-style: none;
+  color: #fff;
+
+}
+
+.div8 ul{
+  
+  display: inline;
+}
+
+
+.jesus1{
+  text-decoration: none;
+  list-style-type: none;
+  list-style: none;
+  color: #fff;
+ 
+}
+
+.zion1{
+  text-align: center;
+  padding: 2%;
+  font-size: 28px;
+  display: flex;
+  flex-direction: row;
+}
+
+.div7{
+  width: 49%;
+}
+
+.div8{
+  width: 50%;
+}
+
+.ici{
+  width: 12%;
+  height: 12%;
+  border-radius: 50%;
+ 
+}
+
+
+.cardformacao{
+  background-color: #302F3D;
+  border-radius: 20px;
+  text-decoration:solid;
+  position: relative;
+  text-align: center;
+  font-size: 19px;
+}
+
+.cardformacao li{
+  list-style-type: none;
+  list-style: none;
+}
+
+
+
+
+.cardtecnologias{
+  background-color: #302F3D;
+  border-radius: 20px;
+  padding: 0 20px;
+  font-size: 19px;
+
+}
+
+.cardtecnologias li{
+  list-style-type: none;
+  list-style: none;
+
+  
+}
+
+
+
+#abaixo{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px 10px;
+
+}
+
+
+
+.projetos{
+  background-color: #302F3D;
+  border-radius: 20px;
+  padding: 0 20px;
+  height: 300px;
+  font-size: 19px;
+  text-align: center;
+
+}
+.projetos li{
+  list-style-type: none;
+  list-style: none;
+}
+
+.experiencias{
+  background-color: #302F3D;
+  border-radius: 20px;
+  padding: 0 20px;
+  font-size: 19px;
+  text-align: center;
+
+}
+.experiencias li{
+  list-style-type: none;
+  list-style: none;
+}
+
+
+
+.separate{
+  display: flex;
+
+  align-items:stretch;
+
+  width: 100%;
+  height: 40%;
+}
+
+.sobremim{
+  background-color: #302F3D;
+  margin-right: 10px;
+  border-radius: 20px;
+  text-align: center;
+  
+  width: 100% ;
+  font-size: 19px;
+}
+.sobremim p{
+  margin: 50px;
+}
+
+.competencias{
+  font-size: 19px;
+  background-color: #302F3D;
+  border-radius: 20px;
+  text-align: center;
+  height: 30%;
+  width :60%
+}
+
+
+
+
+
+.nave {
+	background:rgb(3, 0, 0);
+	font-size: 0;
+	width: 100%;
+	display: flex;
+  
+  }
+
+.nave > ul > li {
+	  display: inline-block;
+	  font-size: 14px;
+	  padding: 0 20px;
+	  position: relative;
+    margin-right: 100px;
+  }
+  
+  .nave > ul > li > a {
+	  color: #fff;
+	  display: block;
+	  padding: 20px 0;
+	  border-bottom: 3px solid transparent;
+	  transition: all .3s ease;
+
+    text-decoration: none;
+    list-style-type: none;
+    list-style: none;
+  }
+  .nave > ul > li:hover > a {
+	color: #444; 
+	  border-bottom: 3px solid #444;
+  }
+
+
+  .rodape{
+    text-align: center;
+    color: #fff;
+  }
+
+
+  .zion{
+    text-align: center;
+    border-radius: 20px;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px 10px;
+    margin-bottom: 10px;
+  }
+
+
+  .div1{
+    background-color: #302F3D;
+    border-radius: 30px;
+    border-width: 2px;
+    border-color: #0400ff;
+    border-style: solid;
+  }
+  
+  .div2{
+    background-color: #302F3D;
+    border-radius: 30px;
+    border-width: 2px;
+    border-color: #ff0000;
+    border-style: solid;
+  }
+  
+  .div3{
+    background-color: #302F3D;
+    border-radius: 30px;
+    border-width: 2px;
+    border-color: #eeff00;
+    border-style: solid;
+  }
+  
+  .div4{
+    background-color: #302F3D;
+    border-radius: 30px;
+    border-width: 2px;
+    border-color: #9900ff;
+    border-style: solid;
+  }
+  
+  .div5{
+    background-color: #302F3D;
+    border-radius: 30px;
+    border-width: 2px;
+    border-color: #00ffff;
+    border-style: solid;
+  }
+
+  .div6{
+    background-color: #302F3D;
+    border-radius: 30px;
+    border-width: 2px;
+    border-color: #e4771f;
+    border-style: solid;
+  }
+
+.ict{
+  width: 5%;
+  height: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
